@@ -54,7 +54,7 @@ function App() {
         schema={schema}
         uiSchema={uiSchema}
         onChange={() => console.log("changed")}
-        onSubmit={() => console.log("submitted")}
+        onSubmit={(outputData) => console.log(outputData)}
         onError={() => console.log("errors")}
       ></Form>
     </div>
