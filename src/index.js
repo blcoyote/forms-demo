@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AddLedig nr_fra={23} nr_til={25} />
+    <AddLedig nr_fra={23101010} nr_til={23101020} />
   </React.StrictMode>,
   document.getElementById("root")
 );
